@@ -1,0 +1,11 @@
+{
+    "name": "Recipe Hopper",
+    "description": "Detects and automatically scrolls to recipe portion of webpage",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["hoptorecipe.js"]
+    }]
+  }
+  
